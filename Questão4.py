@@ -7,7 +7,7 @@ menor = 11
 maior = 0
 outro = 's'
 acertos = 0
-while contador < 3:
+while contador < 11:
     certa = str(input(f'Qual o gabarito da questão {contador}: '))
     gabarito.append(certa)
     contador += 1 
